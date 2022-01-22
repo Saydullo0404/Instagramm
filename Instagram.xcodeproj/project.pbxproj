@@ -33,6 +33,15 @@
 		63AABD7F2789BC1F0059100F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AABD7E2789BC1F0059100F /* AuthManager.swift */; };
 		63AABD812789BCC10059100F /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AABD802789BCC10059100F /* StorageManager.swift */; };
 		63AABD832789C60A0059100F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AABD822789C60A0059100F /* Extensions.swift */; };
+		63EDA9CB2795470000A80441 /* IGFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9CA2795470000A80441 /* IGFeedTableViewCell.swift */; };
+		63EDA9CE2795517200A80441 /* IGFeedPostHederTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9CD2795517200A80441 /* IGFeedPostHederTableViewCell.swift */; };
+		63EDA9D0279551CA00A80441 /* IGFeedActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9CF279551CA00A80441 /* IGFeedActionsTableViewCell.swift */; };
+		63EDA9D22795520C00A80441 /* IGPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9D12795520C00A80441 /* IGPostGeneralTableViewCell.swift */; };
+		63EDA9D427980A4600A80441 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9D327980A4600A80441 /* FormTableViewCell.swift */; };
+		63EDA9D727994F3600A80441 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9D627994F3600A80441 /* PhotoCollectionViewCell.swift */; };
+		63EDA9D92799501300A80441 /* ProfileinfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9D82799501300A80441 /* ProfileinfoHeaderCollectionReusableView.swift */; };
+		63EDA9DB279953D500A80441 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9DA279953D500A80441 /* ProfileTabsCollectionReusableView.swift */; };
+		63EDA9DD27999B0200A80441 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDA9DC27999B0200A80441 /* Models.swift */; };
 		ADA16B959181F68507DF6390 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC433C9E40A97413EE744282 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +76,15 @@
 		63AABD7E2789BC1F0059100F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		63AABD802789BCC10059100F /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		63AABD822789C60A0059100F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		63EDA9CA2795470000A80441 /* IGFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedTableViewCell.swift; sourceTree = "<group>"; };
+		63EDA9CD2795517200A80441 /* IGFeedPostHederTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHederTableViewCell.swift; sourceTree = "<group>"; };
+		63EDA9CF279551CA00A80441 /* IGFeedActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedActionsTableViewCell.swift; sourceTree = "<group>"; };
+		63EDA9D12795520C00A80441 /* IGPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		63EDA9D327980A4600A80441 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		63EDA9D627994F3600A80441 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		63EDA9D82799501300A80441 /* ProfileinfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileinfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		63EDA9DA279953D500A80441 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+		63EDA9DC27999B0200A80441 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		FC433C9E40A97413EE744282 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +166,7 @@
 		63AABD49278966290059100F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				63EDA9D527994EC900A80441 /* CollectionView Headers */,
 				63AABD3C2789655F0059100F /* Assets.xcassets */,
 				63AABD4C278969C70059100F /* Storyboards */,
 			);
@@ -157,6 +176,7 @@
 		63AABD4B278968500059100F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				63EDA9DC27999B0200A80441 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +233,37 @@
 				63AABD6A278977A40059100F /* PublishPostViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		63EDA9C92795469100A80441 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63EDA9CC279550CD00A80441 /* Home Feed */,
+				63EDA9D327980A4600A80441 /* FormTableViewCell.swift */,
+				63EDA9D627994F3600A80441 /* PhotoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63EDA9CC279550CD00A80441 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				63EDA9CA2795470000A80441 /* IGFeedTableViewCell.swift */,
+				63EDA9CD2795517200A80441 /* IGFeedPostHederTableViewCell.swift */,
+				63EDA9CF279551CA00A80441 /* IGFeedActionsTableViewCell.swift */,
+				63EDA9D12795520C00A80441 /* IGPostGeneralTableViewCell.swift */,
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
+		63EDA9D527994EC900A80441 /* CollectionView Headers */ = {
+			isa = PBXGroup;
+			children = (
+				63EDA9D82799501300A80441 /* ProfileinfoHeaderCollectionReusableView.swift */,
+				63EDA9DA279953D500A80441 /* ProfileTabsCollectionReusableView.swift */,
+				63EDA9C92795469100A80441 /* Cells */,
+			);
+			path = "CollectionView Headers";
 			sourceTree = "<group>";
 		};
 		799623E1AAC697839CE31125 /* Frameworks */ = {
@@ -341,6 +392,7 @@
 			files = (
 				63AABD65278977010059100F /* SearchViewController.swift in Sources */,
 				63AABD5927896C260059100F /* LoginViewController.swift in Sources */,
+				63EDA9CE2795517200A80441 /* IGFeedPostHederTableViewCell.swift in Sources */,
 				63AABD742789B79B0059100F /* ExploreViewController.swift in Sources */,
 				63AABD812789BCC10059100F /* StorageManager.swift in Sources */,
 				63AABD3B2789655E0059100F /* Instagram.xcdatamodeld in Sources */,
@@ -348,17 +400,25 @@
 				63AABD5B27896D080059100F /* RegistrationViewController.swift in Sources */,
 				63AABD7A2789B7CE0059100F /* ProfileViewController.swift in Sources */,
 				63AABD722789B7860059100F /* HomeViewController.swift in Sources */,
+				63EDA9D427980A4600A80441 /* FormTableViewCell.swift in Sources */,
 				63AABD832789C60A0059100F /* Extensions.swift in Sources */,
 				63AABD312789655E0059100F /* AppDelegate.swift in Sources */,
 				63AABD7F2789BC1F0059100F /* AuthManager.swift in Sources */,
+				63EDA9CB2795470000A80441 /* IGFeedTableViewCell.swift in Sources */,
 				63AABD6327896DE00059100F /* ListViewController.swift in Sources */,
 				63AABD5F27896D750059100F /* EditRrofileViewController.swift in Sources */,
+				63EDA9D0279551CA00A80441 /* IGFeedActionsTableViewCell.swift in Sources */,
 				63AABD6B278977A40059100F /* PublishPostViewController.swift in Sources */,
+				63EDA9DB279953D500A80441 /* ProfileTabsCollectionReusableView.swift in Sources */,
+				63EDA9D92799501300A80441 /* ProfileinfoHeaderCollectionReusableView.swift in Sources */,
+				63EDA9D22795520C00A80441 /* IGPostGeneralTableViewCell.swift in Sources */,
 				63AABD782789B7C00059100F /* NotificaionsViewController.swift in Sources */,
 				63AABD332789655E0059100F /* SceneDelegate.swift in Sources */,
+				63EDA9DD27999B0200A80441 /* Models.swift in Sources */,
 				63AABD7D2789BACD0059100F /* DatabaseManager.swift in Sources */,
 				63AABD6127896D970059100F /* SettingsViewController.swift in Sources */,
 				63AABD762789B7A90059100F /* CameraViewController.swift in Sources */,
+				63EDA9D727994F3600A80441 /* PhotoCollectionViewCell.swift in Sources */,
 				63AABD67278977230059100F /* SearchResultViewController.swift in Sources */,
 				63AABD5D27896D4B0059100F /* PostViewController.swift in Sources */,
 			);
@@ -512,9 +572,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Instagram;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -541,9 +603,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Instagram;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
