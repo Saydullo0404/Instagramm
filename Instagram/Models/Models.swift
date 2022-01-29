@@ -14,6 +14,7 @@ struct User {
     let username: String
     let bio: String
     let name: (first: String, last: String)
+    let profilePhoto: URL
     let birthDate: Date
     let gender: Gender
     let counts: UserCount
@@ -37,7 +38,7 @@ public struct UserPost {
     let caption: String?
     let likeCount: [PostLikes]
     let comments: [PostComment]
-    let createdData: Data
+    let createdDate: Date
     let taggedUsers: [String]
 }
 struct PostLikes {
