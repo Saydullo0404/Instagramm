@@ -7,12 +7,13 @@
 
 import UIKit
 
-final class IGFeedTableViewCell: UITableViewCell {
+final class IGFeedPostTableViewCell: UITableViewCell {
     
     static let indentifier = "IGFeedTableViewCell"
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        contentView.backgroundColor = .secondarySystemBackground
     }
     
     required init?(coder: NSCoder) {
@@ -21,6 +22,9 @@ final class IGFeedTableViewCell: UITableViewCell {
     
     public func configure() {
         // confgure the cell 
+    }
+    override func layoutSubviews() {
+        super.layoutSubviews()
     }
     
 }

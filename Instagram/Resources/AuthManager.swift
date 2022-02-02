@@ -80,7 +80,7 @@ public class AuthManager {
             print(error)
             completion(false)
             return
-           
+            
         }
     }
 }

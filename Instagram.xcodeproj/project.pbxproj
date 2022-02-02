@@ -257,7 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				6312191B27A3BC2100E5916C /* Notifications */,
-				63EDA9CC279550CD00A80441 /* Home Feed */,
+				63EDA9CC279550CD00A80441 /* Home Feed & Post */,
 				63EDA9D327980A4600A80441 /* FormTableViewCell.swift */,
 				63EDA9D627994F3600A80441 /* PhotoCollectionViewCell.swift */,
 				63EDA9DE279C2C3400A80441 /* UserFollowTableViewCell.swift */,
@@ -265,7 +265,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		63EDA9CC279550CD00A80441 /* Home Feed */ = {
+		63EDA9CC279550CD00A80441 /* Home Feed & Post */ = {
 			isa = PBXGroup;
 			children = (
 				63EDA9CA2795470000A80441 /* IGFeedTableViewCell.swift */,
@@ -273,7 +273,7 @@
 				63EDA9CF279551CA00A80441 /* IGFeedActionsTableViewCell.swift */,
 				63EDA9D12795520C00A80441 /* IGPostGeneralTableViewCell.swift */,
 			);
-			path = "Home Feed";
+			path = "Home Feed & Post";
 			sourceTree = "<group>";
 		};
 		63EDA9D527994EC900A80441 /* CollectionView Headers */ = {

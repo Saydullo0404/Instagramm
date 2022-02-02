@@ -196,7 +196,7 @@ class LoginViewController: UIViewController {
         
         guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty,
               let password = passwordField.text, !password.isEmpty, password.count >= 8 else {return}
-    
+        
         var username: String?
         var email: String?
         
@@ -207,7 +207,7 @@ class LoginViewController: UIViewController {
             // username
             username = usernameEmail
         }
-    
+        
         AuthManager.shared.loginUser(username: username, email: email, password: password) {
             success in
             DispatchQueue.main.async {
