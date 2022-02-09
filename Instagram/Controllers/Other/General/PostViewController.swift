@@ -126,7 +126,7 @@ extension PostViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let model = renderModels[indexPath.section]
-        
+         
         switch model.renderType {
             
         case .action(let actions):
